@@ -33,8 +33,6 @@ Trial tickers cover one company per industry template:
 | Utility | `NEE` |
 | Broker | `SCHW` |
 
-Trial data is from fiscal year 2015 onward.
-
 ## Full access
 
 Get an API key at [api-biggr.com](https://api-biggr.com). Pricing on the site.
@@ -96,13 +94,13 @@ Exception classes: `BiggrError`, `AuthenticationError`, `TrialRestrictedError`, 
 See [`examples/`](examples/):
 
 - [`basic.py`](examples/basic.py) — fetch AAPL income statement
-- [`pit_vs_restated.py`](examples/pit_vs_restated.py) — compare point-in-time vs restated for the same ticker/period
 - [`backtest_data.py`](examples/backtest_data.py) — pull 10 years and load into a pandas DataFrame
 
 ## Roadmap
 
 - ADR / 6-K / 20-F / 40-F (foreign filings)
 - Ratios endpoint (currently you compute from raw line items)
+- MCP server (Model Context Protocol — query biggr from Claude/Cursor)
 - Async client
 
 ## License
