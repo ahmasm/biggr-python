@@ -98,10 +98,17 @@ See [`examples/`](examples/):
 
 ## Roadmap
 
-- ADR / 6-K / 20-F / 40-F (foreign filings)
+Near term:
+
+- OTC tickers (over-the-counter US listings)
+- ADRs / foreign filings (6-K, 20-F, 40-F)
 - Ratios endpoint (currently you compute from raw line items)
+- KPIs endpoint (company-specific operating metrics)
 - MCP server (Model Context Protocol — query biggr from Claude/Cursor)
-- Async client
+
+Longer term:
+
+- International coverage: Japan, UK, Europe, India
 
 ## License
 
