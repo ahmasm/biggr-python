@@ -48,6 +48,8 @@ Full access covers 4,200+ US-listed companies with multi-decade history.
 
 ## What's in the box
 
+New 10-K / 10-Q filings are normalized and live in the API within ~10 minutes of SEC publication.
+
 ```python
 c.financials.income(ticker, **params)         # GET /v1/financials/{ticker}/income
 c.financials.balance_sheet(ticker, **params)  # GET /v1/financials/{ticker}/balance-sheet
