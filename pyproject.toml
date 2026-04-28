@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biggr"
+version = "0.1.0"
+description = "Python client for biggr — US fundamentals API with as-reported + standardized data"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Biggr Technologies" }]
+keywords = [
+  "sec",
+  "edgar",
+  "xbrl",
+  "fundamentals",
+  "financial-data",
+  "financial-statements",
+  "api-client",
+  "quant",
+  "backtest",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Office/Business :: Financial",
+]
+dependencies = ["requests>=2.28"]
+
+[project.urls]
+Homepage = "https://api-biggr.com"
+Documentation = "https://api-biggr.com/docs"
+Source = "https://github.com/ahmasm/biggr-python"
+Issues = "https://github.com/ahmasm/biggr-python/issues"
+
+[tool.setuptools]
+py-modules = ["biggr"]
